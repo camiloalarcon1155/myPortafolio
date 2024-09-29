@@ -157,25 +157,77 @@
     <section class="proyectos" id="proyectos">
         <h2 class="proyectos__titulo">Experiencia Profesional</h2>
         <div class="proyectos__contenedor">
-            <h3 class="proyectos__nombre">Título de la Experiencia</h3>
-            <p class="proyectos__descripcion">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt quisquam unde repudiandae fugiat, earum temporibus!</p>
+            <img class="proyectos__icono" src="./assets/decod_print.png" alt="Interfaz de proyecto encriptador de texto">
+            <h3 class="proyectos__nombre">Encriptador de texto</h3>
+            <p class="proyectos__descripcion">Challenge Oracle</p>
+            <div class="proyectos__botones">
+                <button class="proyectos__botones-repositorio">Repositorio</button>
+                <button class="proyectos__botones-demo">Ver demo</button>
+            </div>
         </div>
         <div class="proyectos__contenedor">
-            <h3 class="proyectos__nombre">Título de la Experiencia</h3>
-            <p class="proyectos__descripcion">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt quisquam unde repudiandae fugiat, earum temporibus!</p>
+            <img class="proyectos__icono" src="./assets/forca_print.png" alt="Interfaz de proyecto encriptador de texto">
+            <h3 class="proyectos__nombre">Juego creado con HTML y JavaScript</h3>
+            <p class="proyectos__descripcion">Challenge Oracle</p>
+            <div class="proyectos__botones">
+                <button class="proyectos__botones-repositorio">Repositorio</button>
+                <button class="proyectos__botones-demo">Ver demo</button>
+            </div>
         </div>
+        <div class="proyectos__contenedor">
+            <img class="proyectos__icono" src="./assets/secretcode_print.png" alt="Interfaz de proyecto encriptador de texto">
+            <h3 class="proyectos__nombre">Encriptador de texto</h3>
+            <p class="proyectos__descripcion">Challenge Oracle</p>
+            <div class="proyectos__botones">
+                <button class="proyectos__botones-repositorio">Repositorio</button>
+                <button class="proyectos__botones-demo">Ver demo</button>
+            </div>
+        </div>
+        <div class="proyectos__contenedor">
+            <img class="proyectos__icono" src="./assets/forca2_print.png" alt="Interfaz de proyecto encriptador de texto">
+            <h3 class="proyectos__nombre">Juego creado con HTML, CSS y JavaScript</h3>
+            <p class="proyectos__descripcion">Challenge Oracle</p>
+            <div class="proyectos__botones">
+                <button class="proyectos__botones-repositorio">Repositorio</button>
+                <button class="proyectos__botones-demo">Ver demo</button>
+            </div>
+        </div>
+
     </section>
 
     <!-- Sección de Contacto -->
     <section class="contacto" id="contacto">
         <h2 class="contacto__titulo">Contacto</h2>
+        <p>¿Quieres contactarme? <br>
+        Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.</p>
         <form class="contacto__formulario">
-            <input class="contacto__campo" type="text" placeholder="Nombre">
-            <input class="contacto__campo" type="email" placeholder="Correo Electrónico">
-            <textarea class="contacto__campo contacto__campo--textarea" placeholder="Mensaje"></textarea>
-            <button class="contacto__boton" type="submit">Enviar</button>
+            <div class="contacto__contenedor">
+                <label class="contacto__label" for="nombre">Nombre</label>
+                <input class="contacto__campo" id="nombre" type="text" placeholder="André Lisboa...">
+            </div>
+            <div class="contacto__contenedor">
+                <label class="contacto__label" for="email">E-mail</label>
+                <input class="contacto__campo" id="email" type="email" placeholder="andre.lisboa@alur...|">
+            </div>
+            
+            <div class="contacto__contenedor">
+                <input class="contacto__campo" id="email" type="email" placeholder="Asunto">
+            </div>
+
+            <div class="contacto__contenedor">
+                <textarea class="contacto__campo contacto__campo--textarea" placeholder="Mensaje"></textarea>
+            </div>
+            
+            <button class="contacto__boton" type="submit">Enviar mensaje</button>
         </form>
     </section>
+
+    <!-- rodapìe -->
+    <footer class="rodapìe">
+        <p>Desarrollado por Fulana de Tal</p>
+        <p>2022</p>
+    </footer>
+
 </body>
     <script src="script.js"></script>
 </html>
