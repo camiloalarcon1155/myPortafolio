@@ -170,7 +170,8 @@ a {
 .habilidades__lista{
     display: flex;
     flex-wrap: wrap;
-    gap: 1rem;
+    row-gap: 2rem;
+    column-gap: 1rem;
 }
 
 .habilidades__elemento{
@@ -213,7 +214,8 @@ a {
 .aficiones__lista{
     display: flex;
     flex-wrap: wrap;
-    gap: 1rem;
+    row-gap: 2rem;
+    column-gap: 1rem;
 }
 
 .aficiones__elemento{
@@ -267,7 +269,7 @@ a {
     flex-direction: column;
     width: 100%;
     height: auto;
-    padding: 0 2rem 2rem 2rem;
+    padding: 0 1rem 1rem 1rem;
     
 }
 
@@ -317,7 +319,7 @@ a {
     flex-direction: column;
     width: 100%;
     height: auto;
-    padding: 0 2rem 2rem 2rem;
+    padding: 0 1rem 1rem 1rem;
 }
 
 .proyectos__nombre{
@@ -387,6 +389,8 @@ a {
 
 .contacto__contenedor:nth-child(4) {
     height: 133px;
+    padding-top: 12px;
+    justify-content: flex-start;
 }
 
 .contacto__label{
