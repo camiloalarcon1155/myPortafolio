@@ -491,11 +491,14 @@ a {
 /* ------------------------------ Responsividad ---------------------------------------*/
 
 /* Tablets y pantallas más grandes */
-@media (min-width: 768px) {
+@media (min-width: 700px) {
+
+    /* cabecera */
     .cabecera {
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
+        padding: 1rem 2rem 1rem 2rem;
     }
 
     .cabecera__logo {
@@ -516,6 +519,39 @@ a {
     .navegacion__elemento a {
         font-size: 1rem;
     }
+
+    /* presentacion */
+    .presentacion {
+        display: flex;
+        flex-direction: row-reverse;
+        
+        padding: 2rem;
+        gap: 2rem;
+    }
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
 /* Pantallas grandes */
