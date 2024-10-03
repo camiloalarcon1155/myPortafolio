@@ -524,25 +524,54 @@ a {
     .presentacion {
         display: flex;
         flex-direction: row-reverse;
-        
         padding: 2rem;
         gap: 2rem;
     }
 
+    .presentacion__foto{
+        margin-bottom: 0rem;
+        align-self: center;
+        width: 146px;
+        height: 146px;
+    }
+
+    .presentacion__contenedor{
+        gap: 8px;
+    }
+
+    .habilidades{
+        padding: 2rem; 
+    }
+
+    .habilidades__elemento{
+        width: 224px;
+        height: 118px;
+    }
+
+    .aficiones{
+        padding: 2rem; 
+    }
+
+    .aficiones__elemento{
+        width: 224px;
+        height: 118px;
+    }
+
+    .formacion{
+        padding: 2rem; 
+    }
     
+    .formacion__lista{
+        flex-direction: row;
+    }
 
+    .formacion__grafico{
+        width: 100%;
+    }
 
-
-
-
-
-
-
-
-
-
-
-
+    .formacion__elemento {
+        align-items: flex-start;
+    }
 
 
 
