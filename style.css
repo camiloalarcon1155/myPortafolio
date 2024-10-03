@@ -408,6 +408,10 @@ a {
     gap: 8px;
 }
 
+.contacto p {
+    margin-bottom: 1rem;
+}
+
 .contacto__formulario{
     display: flex;
     flex-direction: column;
