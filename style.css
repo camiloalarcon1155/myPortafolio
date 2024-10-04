@@ -133,7 +133,7 @@ a {
 
 /* ------------------------------ Sección sobre mí ----------------------------------*/
 .sobre-mi{
-        display: flex;
+    display: flex;
     flex-direction: column;
     padding: 1rem;
     text-align: left;
@@ -539,6 +539,11 @@ a {
     .presentacion__contenedor{
         gap: 8px;
     }
+
+    .sobre-mi {
+        padding: 2rem;
+    }
+
 
     .habilidades{
         padding: 2rem; 
