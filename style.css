@@ -33,14 +33,16 @@ a {
 
 /* ------------------------------ Sección Menú -------------------------------*/
 .cabecera {
+    background-color: var(--color-de-fondo-menu);
+    width: 100%;
+}
+
+.cabecera__contenido {
     display: flex;
    /*  flex-direction: column; */
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
-    background-color: var(--color-de-fondo-menu);
-
-    
 }
 
 
@@ -87,12 +89,15 @@ a {
 
 
 /* ------------------------------ Sección Presentación ------------------------------*/
+.presentacion {
+    width: 100%;
+    background-color: var(--color-de-fondo-menu);
+}
 
-.presentacion{
+.presentacion__contenido{
     display: flex;
     flex-direction: column;
     padding: 1rem;
-    background-color: var(--color-de-fondo-menu);
     gap: 1rem;
 }
 
@@ -135,12 +140,16 @@ a {
 
 
 /* ------------------------------ Sección sobre mí ----------------------------------*/
-.sobre-mi{
+.sobre-mi {
+    width: 100%;
+    background-color: #EAF2FD;
+}
+
+.sobre-mi__contenido{
     display: flex;
     flex-direction: column;
     padding: 1rem;
     text-align: left;
-    background-color: #EAF2FD;
     gap: 1rem;
 }
 
@@ -164,8 +173,12 @@ a {
     object-fit: contain;
 }
 /*------------------------------ Sección de Habilidades ------------------------------*/
+.habilidades {
+    background-color: var(--color-de-fondo);
+    width: 100%;
+}
 
-.habilidades{
+.habilidades__contenido{
     display: flex;
     flex-direction: column;
     padding: 1rem;
@@ -214,7 +227,12 @@ a {
     font-size: 16px;    
 }
 /*------------------------------ Sección de Aficiones --------------------------------*/
-.aficiones{
+.aficiones {
+    background-color: var(--color-de-fondo);
+    width: 100%;
+}
+
+.aficiones__contenido{
     display: flex;
     flex-direction: column;
     padding: 1rem;
@@ -262,12 +280,16 @@ a {
 }
 
 /*------------------------------ Sección de Formacion --------------------------------*/
-.formacion{
+.formacion {
+    background-color: #EAF2FD;
+    width: 100%;
+}
+
+.formacion__contenido{
     display: flex;
     flex-direction: column;
     row-gap: 2rem;
     padding: 2rem;
-    background-color: #EAF2FD;
 }
 
 .formacion__titulo{
@@ -329,8 +351,12 @@ a {
     font-size: 14px; 
 }
 /*------------------------------ Sección de Proyectos --------------------------------*/
+.proyectos {
+    background-color: var(--color-de-fondo);
+    width: 100%;
+}
 
-.proyectos{
+.proyectos__contenido{
     padding: 2rem;
 }
 
@@ -498,7 +524,7 @@ a {
 @media (min-width: 700px) {
 
     /* cabecera */
-    .cabecera {
+    .cabecera__contenido {
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
@@ -531,7 +557,7 @@ a {
     } */
 
     /* presentacion */
-    .presentacion {
+    .presentacion__contenido {
         display: flex;
         flex-direction: row-reverse;
         padding: 2rem;
@@ -547,15 +573,16 @@ a {
 
     .presentacion__contenedor{
         gap: 8px;
+        justify-content: center;
     }
 
-    .sobre-mi {
+
+    .sobre-mi__contenido {
         padding: 2rem;
     }
 
-
-    .habilidades{
-        padding: 2rem; 
+    .habilidades__contenido{
+        padding: 2rem;
     }
 
     .habilidades__elemento{
@@ -563,7 +590,7 @@ a {
         height: 118px;
     }
 
-    .aficiones{
+    .aficiones__contenido{
         padding: 2rem; 
     }
 
@@ -572,7 +599,7 @@ a {
         height: 118px;
     }
 
-    .formacion{
+    .formacion__contenido{
         padding: 2rem; 
     }
     
@@ -582,6 +609,7 @@ a {
 
     .formacion__grafico{
         width: 100%;
+        height: 118px;
     }
 
     .formacion__elemento {
@@ -609,12 +637,11 @@ a {
 /* Pantallas grandes */
 @media (min-width: 1024px) {
     /* Aquí puedes ajustar aún más el diseño para pantallas grandes */
-    .cabecera {
+    .cabecera__contenido {
         max-width: 1136px;
         width: 100%;
         margin: 0 auto;
         padding: 2rem 0;
-        padding: 0 4rem;
     }
 
   /*   .cabecera__titulo {
@@ -631,7 +658,7 @@ a {
         display: flex;
     }
 
-    .presentacion{
+    .presentacion__contenido{
         display: flex;
         flex-direction: row-reverse;
         padding: 0;
@@ -639,7 +666,7 @@ a {
         max-width: 1136px;
         width: 100%;
         margin: 0 auto;
-        padding: 0 4rem;
+        padding: 2rem 0;
     }    
 
     .presentacion__titulo {
@@ -657,21 +684,67 @@ a {
         height: 368px;
     }
 
-    .sobre-mi {
+    .sobre-mi__contenido {
         max-width: 1136px;
         width: 100%;
         margin: 0 auto;
-        padding: 4rem 4rem;
+        padding: 4rem 0;
+    }
+
+    .habilidades__contenido{
+        max-width: 1136px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 2rem 0; 
+    }
+
+    .habilidades__elemento {
+        width: 176px;
+        height: 174px;
+    }
+
+    .aficiones__contenido {
+        max-width: 1136px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 44px 0;
+    }
+
+    .aficiones__elemento {
+        width: 176px;
+        height: 174px;
+    }
+
+    .formacion__contenido {
+        max-width: 1136px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 82px 0;
+    }
+
+    .formacion__grafico {
+        width: 368px;
+        height: 347px;
+    }    
+
+    .formacion__icono {
+        object-fit: contain;
+        height: 130px;
+        width: 192px;
+    }
+
+    .proyectos__contenido {
+        padding: 2rem;
+        max-width: 1136px;
+        margin: 0 auto;
+        padding: 2rem 0;
     }
 
 
-
-
-
-
-
-
-
+/* 
+    .proyectos__contenedor {
+        
+    } */
 
 
 
