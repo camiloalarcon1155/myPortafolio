@@ -58,12 +58,15 @@ a {
 .cabecera__titulo {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 1rem;
     text-align: left;
 }
 
 .navegacion__lista {
     display: flex;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
 }
 
 .navegacion__lista li {
@@ -77,9 +80,9 @@ a {
     font-size: 14px;
 }
 
-.navegacion__elemento a {
+/* .navegacion__elemento a {
     font-size: 0.9rem;
-}
+} */
 
 
 
@@ -506,9 +509,9 @@ a {
         max-width: 100px;
     }
 
-    .cabecera__titulo {
-        font-size: 1.5rem;
-    }
+/*     .cabecera__titulo {
+        font-size: 1rem;
+    } */
 
     .navegacion__lista {
         display: flex;
@@ -517,9 +520,15 @@ a {
         margin-top: 0;
     }
 
-    .navegacion__elemento a {
-        font-size: 1rem;
+    
+    .navegacion__lista li:nth-child(6) {
+        font-weight: 700;
+        font-size: 16px;
     }
+
+  /*   .navegacion__elemento a {
+        font-size: 1rem;
+    } */
 
     /* presentacion */
     .presentacion {
@@ -587,6 +596,11 @@ a {
         margin-bottom: 1rem;
     }
 
+    .redes {
+        max-width: 467px;
+        font-weight: 500;
+        font-size: 1rem;
+    }
 
 
 
@@ -595,11 +609,77 @@ a {
 /* Pantallas grandes */
 @media (min-width: 1024px) {
     /* Aquí puedes ajustar aún más el diseño para pantallas grandes */
-    .cabecera__titulo {
-        font-size: 1.8rem;
+    .cabecera {
+        max-width: 1136px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 2rem 0;
+        padding: 0 4rem;
     }
 
-    .navegacion__elemento a {
-        font-size: 1.1rem;
+  /*   .cabecera__titulo {
+        font-size: 1.8rem;
+    } */
+
+    /* .navegacion__elemento a {
+        font-weight: 500;
+        font-size: 1rem;
+    } */
+
+
+    .navegacion__lista li {
+        display: flex;
     }
+
+    .presentacion{
+        display: flex;
+        flex-direction: row-reverse;
+        padding: 0;
+        gap: 2rem;
+        max-width: 1136px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 4rem;
+    }    
+
+    .presentacion__titulo {
+        font-size: 3.25rem;
+    }
+
+    .presentacion__subtitulo{
+        font-size: 22px;
+    }
+
+    .presentacion__foto {
+        margin-bottom: 0rem;
+        align-self: center;
+        width: 368px;
+        height: 368px;
+    }
+
+    .sobre-mi {
+        max-width: 1136px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 4rem 4rem;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
