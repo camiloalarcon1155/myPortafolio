@@ -110,7 +110,7 @@ a {
 .presentacion__contenedor{
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 1rem;
 }
 
 .presentacion__titulo{
@@ -134,6 +134,7 @@ a {
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
     font-size: 14px;
+    max-width: 318px;
 }
 
 
@@ -312,8 +313,6 @@ a {
     width: 100%;
     height: auto;
     gap: 8px;
-    /* padding: 0 1rem 1rem 1rem; */
-    
 }
 
 .formacion__grafico{
@@ -607,9 +606,9 @@ a {
         height: 118px;
     }
 
-    .formacion__contenido{
+/*     .formacion__contenido{
         padding: 2rem; 
-    }
+    } */
     
     .formacion__lista{
         flex-direction: row;
@@ -690,6 +689,11 @@ a {
         align-self: center;
         width: 368px;
         height: 368px;
+    }
+
+    .presentacion__contenedor{
+        gap: 1.5rem;
+        justify-content: center;
     }
 
     .sobre-mi__contenido {
