@@ -441,11 +441,17 @@ a {
 }
 
 .contacto__titulo{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 22px; 
     margin-bottom: 8px;
 }
 
-.contacto__contenido p {
+.contacto__rellenar-informacion p {
     margin-bottom: 2rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
 }
 
 .contacto__icono {
@@ -505,7 +511,7 @@ a {
 
 .contacto__boton{
     font-family: 'Raleway', sans-serif;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 14px; 
     width: 133px;
     height: 40px;
@@ -576,6 +582,10 @@ a {
         justify-content: space-between;
     }
 
+    .presentacion__subtitulo{
+        font-size: 16px;
+    }
+
     .presentacion__foto{
         margin-bottom: 0rem;
         align-self: center;
@@ -588,6 +598,11 @@ a {
         justify-content: center;
     }
 
+    .redes {
+        max-width: 467px;
+        font-weight: 500;
+        font-size: 1rem;
+    }
 
     .sobre-mi__contenido {
         padding: 2rem;
@@ -632,17 +647,13 @@ a {
         gap: 1rem;
     }
 
-    .contacto__contenido p {
-        margin-bottom: 2rem;
+    .proyectos__botones-repositorio {
+        font-weight: 600;
     }
 
-    .redes {
-        max-width: 467px;
-        font-weight: 500;
-        font-size: 1rem;
+    .proyectos__botones-demo {
+        font-weight: 600;
     }
-
-
 
 }
 
@@ -706,6 +717,10 @@ a {
         width: 100%;
         margin: 0 auto;
         padding: 4rem 0;
+    }
+
+    .sobre-mi__texto {
+        max-width: 768px;
     }
 
     .habilidades__contenido{
@@ -784,10 +799,6 @@ a {
         padding: 4rem 0;
     }
 
-    .contacto__contenido p {
-        margin-bottom: 2rem;
-    }
-
     .contacto__titulo {
         font-family: 'Raleway', sans-serif;
         font-weight: 700;
@@ -798,6 +809,11 @@ a {
 
     .contacto__icono {
         display: flex;
+    }
+
+    .contacto__boton{
+        font-weight: 400;
+        font-size: 1rem;
     }
 
 }
