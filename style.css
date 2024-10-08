@@ -1,12 +1,11 @@
-/* Este repositório base fué creado para ayudarte en caso que no sepas como comenzar, recuerda que el portafolio es tu carta de presentación y debes darle tu cara, por eso te invitamos a personalizarlo según tu estilo y preferencias no te limites apenas al layout propuesto en figma  
-*/
+/*Esto es un proyecto con proposito educativo  */
 :root {
     --color-de-fondo: #F5F5F5;
     --color-de-fondo-menu: #ffffff;
     --color-de-link: #000000;
 }
 
-* {
+* { /* añadimos este metodo para evitar el reset.css */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -33,14 +32,15 @@ a {
 
 /* ------------------------------ Sección Menú -------------------------------*/
 .cabecera {
+    background-color: var(--color-de-fondo-menu);
+    width: 100%;
+}
+
+.cabecera__contenido {
     display: flex;
-   /*  flex-direction: column; */
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
-    background-color: var(--color-de-fondo-menu);
-
-    
 }
 
 
@@ -58,12 +58,15 @@ a {
 .cabecera__titulo {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 1rem;
     text-align: left;
 }
 
 .navegacion__lista {
     display: flex;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
 }
 
 .navegacion__lista li {
@@ -77,19 +80,16 @@ a {
     font-size: 14px;
 }
 
-.navegacion__elemento a {
-    font-size: 0.9rem;
+/* ------------------------------ Sección Presentación ------------------------------*/
+.presentacion {
+    width: 100%;
+    background-color: var(--color-de-fondo-menu);
 }
 
-
-
-/* ------------------------------ Sección Presentación ------------------------------*/
-
-.presentacion{
+.presentacion__contenido{
     display: flex;
     flex-direction: column;
     padding: 1rem;
-    background-color: var(--color-de-fondo-menu);
     gap: 1rem;
 }
 
@@ -102,7 +102,7 @@ a {
 .presentacion__contenedor{
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 1rem;
 }
 
 .presentacion__titulo{
@@ -126,18 +126,20 @@ a {
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
     font-size: 14px;
+    max-width: 318px;
 }
 
-
-
-
 /* ------------------------------ Sección sobre mí ----------------------------------*/
-.sobre-mi{
-        display: flex;
+.sobre-mi {
+    width: 100%;
+    background-color: #EAF2FD;
+}
+
+.sobre-mi__contenido{
+    display: flex;
     flex-direction: column;
     padding: 1rem;
     text-align: left;
-    background-color: #EAF2FD;
     gap: 1rem;
 }
 
@@ -161,13 +163,16 @@ a {
     object-fit: contain;
 }
 /*------------------------------ Sección de Habilidades ------------------------------*/
+.habilidades {
+    background-color: var(--color-de-fondo);
+    width: 100%;
+}
 
-.habilidades{
+.habilidades__contenido{
     display: flex;
     flex-direction: column;
     padding: 1rem;
     row-gap: 2rem;
-
 }
 
 .habilidades__titulo{
@@ -199,8 +204,6 @@ a {
 
 .habilidades__icono{
     object-fit: contain;
-   /*  height: 37px;
-    width: auto; */
 }
 
 
@@ -210,8 +213,14 @@ a {
     font-weight: 700;
     font-size: 16px;    
 }
+
 /*------------------------------ Sección de Aficiones --------------------------------*/
-.aficiones{
+.aficiones {
+    background-color: var(--color-de-fondo);
+    width: 100%;
+}
+
+.aficiones__contenido{
     display: flex;
     flex-direction: column;
     padding: 1rem;
@@ -246,8 +255,6 @@ a {
 
 .aficiones__icono{
     object-fit: contain;
-    /* height: 37px;
-    width: auto; */
 }
 
 
@@ -259,12 +266,16 @@ a {
 }
 
 /*------------------------------ Sección de Formacion --------------------------------*/
-.formacion{
+.formacion {
+    background-color: #EAF2FD;
+    width: 100%;
+}
+
+.formacion__contenido{
     display: flex;
     flex-direction: column;
     row-gap: 2rem;
     padding: 2rem;
-    background-color: #EAF2FD;
 }
 
 .formacion__titulo{
@@ -287,8 +298,6 @@ a {
     width: 100%;
     height: auto;
     gap: 8px;
-    /* padding: 0 1rem 1rem 1rem; */
-    
 }
 
 .formacion__grafico{
@@ -325,9 +334,14 @@ a {
     font-weight: 500;
     font-size: 14px; 
 }
-/*------------------------------ Sección de Proyectos --------------------------------*/
 
-.proyectos{
+/*------------------------------ Sección de Proyectos --------------------------------*/
+.proyectos {
+    background-color: var(--color-de-fondo);
+    width: 100%;
+}
+
+.proyectos__contenido{
     padding: 2rem;
 }
 
@@ -345,7 +359,6 @@ a {
     width: 100%;
     height: auto;
     margin-bottom: 4rem;
-    /* padding: 0 1rem 1rem 1rem; */
 }
 
 .proyectos__contenedor:nth-child(5) {
@@ -399,17 +412,36 @@ a {
     border: none;
     color: #ffffff;
 }
+
 /*------------------------------ Sección de Contacto ---------------------------------*/
-.contacto{
+.contacto {
+    background-color: #EAF2FD;
+    width: 100%;
+}    
+
+.contacto__contenido{
     display: flex;
     flex-direction: column;
     padding: 2rem;
-    background-color: #EAF2FD;
     gap: 8px;
 }
 
-.contacto p {
-    margin-bottom: 1rem;
+.contacto__titulo{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 22px; 
+    margin-bottom: 8px;
+}
+
+.contacto__rellenar-informacion p {
+    margin-bottom: 2rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.contacto__icono {
+    display: none;
 }
 
 .contacto__formulario{
@@ -465,7 +497,7 @@ a {
 
 .contacto__boton{
     font-family: 'Raleway', sans-serif;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 14px; 
     width: 133px;
     height: 40px;
@@ -480,7 +512,6 @@ a {
     justify-content: center;
     align-items: center;
     width: 100%;
-    /* height: 102px; */
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
     font-size: 16px; 
@@ -489,45 +520,4 @@ a {
     
 }
 
-
 /* ------------------------------ Responsividad ---------------------------------------*/
-
-/* Tablets y pantallas más grandes */
-@media (min-width: 768px) {
-    .cabecera {
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    .cabecera__logo {
-        max-width: 100px;
-    }
-
-    .cabecera__titulo {
-        font-size: 1.5rem;
-    }
-
-    .navegacion__lista {
-        display: flex;
-        flex-direction: row;
-        gap: 1rem;
-        margin-top: 0;
-    }
-
-    .navegacion__elemento a {
-        font-size: 1rem;
-    }
-}
-
-/* Pantallas grandes */
-@media (min-width: 1024px) {
-    /* Aquí puedes ajustar aún más el diseño para pantallas grandes */
-    .cabecera__titulo {
-        font-size: 1.8rem;
-    }
-
-    .navegacion__elemento a {
-        font-size: 1.1rem;
-    }
-}
