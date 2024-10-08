@@ -440,8 +440,12 @@ a {
     gap: 8px;
 }
 
+.contacto__titulo{
+    margin-bottom: 8px;
+}
+
 .contacto__contenido p {
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 .contacto__icono {
@@ -528,7 +532,7 @@ a {
 /* ------------------------------ Responsividad ---------------------------------------*/
 
 /* Tablets y pantallas más grandes */
-@media (min-width: 700px) {
+@media (min-width: 752px) {
 
     /* cabecera */
     .cabecera__contenido {
@@ -569,6 +573,7 @@ a {
         flex-direction: row-reverse;
         padding: 2rem;
         gap: 2rem;
+        justify-content: space-between;
     }
 
     .presentacion__foto{
@@ -593,7 +598,7 @@ a {
     }
 
     .habilidades__elemento{
-        width: 224px;
+        max-width: 224px;
         height: 118px;
     }
 
@@ -602,7 +607,7 @@ a {
     }
 
     .aficiones__elemento{
-        width: 224px;
+        max-width: 224px;
         height: 118px;
     }
 
@@ -628,7 +633,7 @@ a {
     }
 
     .contacto__contenido p {
-        margin-bottom: 1rem;
+        margin-bottom: 2rem;
     }
 
     .redes {
@@ -642,7 +647,7 @@ a {
 }
 
 /* Pantallas grandes */
-@media (min-width: 1024px) {
+@media (min-width: 1440px) {
     /* Aquí puedes ajustar aún más el diseño para pantallas grandes */
     .cabecera__contenido {
         max-width: 1136px;
@@ -784,6 +789,10 @@ a {
     }
 
     .contacto__titulo {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        font-size: 2rem;
+        text-align: left;
         margin-bottom: 8px;
     }
 
