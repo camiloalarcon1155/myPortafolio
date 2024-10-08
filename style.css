@@ -740,14 +740,23 @@ a {
         padding: 2rem 0;
     }
 
-
-/* 
     .proyectos__contenedor {
-        
-    } */
+        flex-direction: row;
+        column-gap: 1rem;
+        align-items: center;
+    }
 
+    .proyectos__contenedor:nth-child(3),
+    .proyectos__contenedor:nth-child(5) {
+        flex-direction: row-reverse;
+    }
 
-
+    .proyectos__informacion {
+        display: flex;
+        justify-content: left;
+        flex-direction: column;
+        width: 368px;
+    }
 
 
 
