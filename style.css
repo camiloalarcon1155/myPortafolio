@@ -613,7 +613,8 @@ a {
     }
 
     .habilidades__elemento{
-        max-width: 224px;
+        width: auto;
+        min-width: 224px;
         height: 118px;
     }
 
@@ -622,7 +623,8 @@ a {
     }
 
     .aficiones__elemento{
-        max-width: 224px;
+        width: auto;
+        min-width: 224px;
         height: 118px;
     }
 
@@ -731,7 +733,8 @@ a {
     }
 
     .habilidades__elemento {
-        width: 176px;
+        width: auto;
+        min-width: 176px;
         height: 174px;
     }
 
@@ -743,7 +746,8 @@ a {
     }
 
     .aficiones__elemento {
-        width: 176px;
+        width: auto;
+        min-width: 176px;
         height: 174px;
     }
 
