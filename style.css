@@ -429,16 +429,24 @@ a {
     color: #ffffff;
 }
 /*------------------------------ Sección de Contacto ---------------------------------*/
-.contacto{
+.contacto {
+    background-color: #EAF2FD;
+    width: 100%;
+}    
+
+.contacto__contenido{
     display: flex;
     flex-direction: column;
     padding: 2rem;
-    background-color: #EAF2FD;
     gap: 8px;
 }
 
-.contacto p {
+.contacto__contenido p {
     margin-bottom: 1rem;
+}
+
+.contacto__icono {
+    display: none;
 }
 
 .contacto__formulario{
@@ -616,11 +624,11 @@ a {
         align-items: flex-start;
     }
 
-    .contacto {
+    .contacto__contenido {
         gap: 1rem;
     }
 
-    .contacto p {
+    .contacto__contenido p {
         margin-bottom: 1rem;
     }
 
@@ -758,10 +766,25 @@ a {
         width: 368px;
     }
 
+    .contacto__contenido {
+        display: flex;
+        flex-direction: row;
+        max-width: 1136px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 4rem 0;
+    }
 
+    .contacto__contenido p {
+        margin-bottom: 2rem;
+    }
 
+    .contacto__titulo {
+        margin-bottom: 8px;
+    }
 
-
-
+    .contacto__icono {
+        display: flex;
+    }
 
 }
