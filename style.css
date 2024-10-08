@@ -1,12 +1,11 @@
-/* Este repositório base fué creado para ayudarte en caso que no sepas como comenzar, recuerda que el portafolio es tu carta de presentación y debes darle tu cara, por eso te invitamos a personalizarlo según tu estilo y preferencias no te limites apenas al layout propuesto en figma  
-*/
+/*Esto es un proyecto con proposito educativo  */
 :root {
     --color-de-fondo: #F5F5F5;
     --color-de-fondo-menu: #ffffff;
     --color-de-link: #000000;
 }
 
-* {
+* { /* añadimos este metodo para evitar el reset.css */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -163,7 +162,6 @@ a {
     height: 52px;
     object-fit: contain;
 }
-
 /*------------------------------ Sección de Habilidades ------------------------------*/
 .habilidades {
     background-color: var(--color-de-fondo);
@@ -175,7 +173,6 @@ a {
     flex-direction: column;
     padding: 1rem;
     row-gap: 2rem;
-
 }
 
 .habilidades__titulo{
@@ -528,7 +525,7 @@ a {
 /* Tablets y pantallas más grandes */
 @media (min-width: 768px) {
 
-    /* cabecera */
+    /* ------------------------------ cabecera ---------------------------------------*/
     .cabecera__contenido {
         flex-direction: row;
         justify-content: space-between;
@@ -583,10 +580,12 @@ a {
         font-size: 1rem;
     }
 
+    /* ------------------------------ Sección sobre mí ----------------------------------*/
     .sobre-mi__contenido {
         padding: 2rem;
     }
 
+    /*------------------------------ Sección de Habilidades ------------------------------*/
     .habilidades__contenido{
         padding: 2rem;
     }
@@ -597,6 +596,7 @@ a {
         height: 118px;
     }
 
+    /*------------------------------ Sección de Aficiones --------------------------------*/
     .aficiones__contenido{
         padding: 2rem; 
     }
@@ -607,6 +607,7 @@ a {
         height: 118px;
     }
     
+    /*------------------------------ Sección de Formacion --------------------------------*/
     .formacion__lista{
         flex-direction: row;
     }
@@ -620,10 +621,7 @@ a {
         align-items: flex-start;
     }
 
-    .contacto__contenido {
-        gap: 1rem;
-    }
-
+/*------------------------------ Sección de Proyectos --------------------------------*/
     .proyectos__botones-repositorio {
         font-weight: 600;
     }
@@ -632,11 +630,17 @@ a {
         font-weight: 600;
     }
 
+    /*------------------------------ Sección de Contacto ---------------------------------*/
+    .contacto__contenido {
+        gap: 1rem;
+    }
+
 }
 
+/* para pantallas de tipo escritorio pequeñas */
 @media (min-width: 1024px) {
 
-    /* cabecera */
+    /* ------------------------------ cabecera ---------------------------------------*/
     .cabecera__contenido {
         flex-direction: row;
         justify-content: space-between;
@@ -655,13 +659,12 @@ a {
         margin-top: 0;
     }
 
-    
     .navegacion__lista li:nth-child(6) {
         font-weight: 700;
         font-size: 16px;
     }
 
-    /* presentacion */
+    /* ------------------------------ Sección Presentación ------------------------------*/
     .presentacion__contenido {
         display: flex;
         flex-direction: row-reverse;
@@ -692,6 +695,7 @@ a {
         font-size: 1rem;
     }
 
+    /* ------------------------------ Sección sobre mí ----------------------------------*/
     .sobre-mi__contenido {
         padding: 2rem 10rem;
     }
@@ -700,6 +704,7 @@ a {
         max-width: 768px;
     }
 
+    /*------------------------------ Sección de Habilidades ------------------------------*/
     .habilidades__contenido{
         padding: 2rem 10rem;
     }
@@ -710,6 +715,7 @@ a {
         height: 118px;
     }
 
+    /*------------------------------ Sección de Aficiones --------------------------------*/
     .aficiones__contenido{
         padding: 2rem 10rem; 
     }
@@ -720,6 +726,7 @@ a {
         height: 118px;
     }
 
+    /*------------------------------ Sección de Formacion --------------------------------*/
     .formacion__contenido {
         padding: 2rem 10rem;
     }
@@ -737,10 +744,6 @@ a {
         align-items: flex-start;
     }
 
-    .contacto__contenido {
-        padding: 1rem 10rem;
-    }
-
     .proyectos__contenido {
         padding: 2rem 10rem;
     }
@@ -753,4 +756,8 @@ a {
         font-weight: 600;
     }
 
+    /*------------------------------ Sección de Contacto ---------------------------------*/
+    .contacto__contenido {
+        padding: 1rem 10rem;
+    }
 }
