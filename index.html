@@ -14,163 +14,197 @@
 
 <body>
     <!-- Menú -->
-    <header class="cabecera">
-        <div class="cabecera__contenido">
-            <div class="cabecera__izquierda">
-                <img class="cabecera__logo" src="assets/vector.png" alt="Logo">
-                <h1 class="cabecera__titulo">Fulana de Tal</h1>
-            </div>
-            <nav class="navegacion">
-                <ul class="navegacion__lista">
-                    <li class="navegacion__elemento"><a href="#sobre-mi">Sobre mí</a></li>
-                    <li class="navegacion__elemento"><a href="#habilidades">Habilidades</a></li>
-                    <li class="navegacion__elemento"><a href="#aficiones">Aficiones</a></li>
-                    <li class="navegacion__elemento"><a href="#formacion">Formación</a></li>
-                    <li class="navegacion__elemento"><a href="#proyectos">Proyectos</a></li>
-                    <li class="navegacion__elemento"><a href="#contacto">contacto@fulana.com</a></li>
-                </ul>
-            </nav>
+<header class="cabecera" role="banner">
+    <div class="cabecera__contenido">
+        <div class="cabecera__izquierda">
+            <img class="cabecera__logo" src="assets/vector.png" alt="Logo de Camilo Alarcón">
+            <h1 class="cabecera__titulo">Camilo Alarcón</h1>
         </div>
-    </header>
+        <nav class="navegacion" aria-label="Menú de navegación principal">
+            <ul class="navegacion__lista">
+                <li class="navegacion__elemento"><a href="#sobre-mi" aria-current="page">Sobre mí</a></li>
+                <li class="navegacion__elemento"><a href="#habilidades">Habilidades</a></li>
+                <li class="navegacion__elemento"><a href="#aficiones">Aficiones</a></li>
+                <li class="navegacion__elemento"><a href="#formacion">Formación</a></li>
+                <li class="navegacion__elemento"><a href="#proyectos">Proyectos</a></li>
+                <li class="navegacion__elemento">
+                    <a href="mailto:camiloalarcon11155@gmail.com" aria-label="Enviar correo a Camilo Alarcón">
+                        camiloalarcon11155@gmail.com
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+
 
     <!-- Sección de Presentación -->
-    <section class="presentacion">
-        <div class="presentacion__contenido">
-            <img class="presentacion__foto" src="assets/profile.png" alt="Foto de perfil">
-            <div class="presentacion__contenedor">
-                <h2 class="presentacion__titulo">Hola, mi nombre es Fulana de Tal y construyo páginas web</h2>
-                <p class="presentacion__subtitulo">Soy formada en lorem ipsum sit amet consectetur y actualmente estoy participando
-                    del proyecto Oracle ONE en Alura Latam.</p>
-                <ul class="redes">
-                    <li class="redes__img"><a href="">Github <img src="assets/arrow.png" alt="Flecha"></a></li>
-                    <li class="redes__img"><a href="">Linkedin <img src="assets/arrow.png" alt="Flecha"></a></li>
-                    <li class="redes__img"><a href="">Instagram <img src="assets/arrow.png" alt="Flecha"></a></li>
-                    <li class="redes__img"><a href="">Currículo <img src="assets/arrow.png" alt="Flecha"></a></li>
-                </ul>
-            </div>
+<section class="presentacion" aria-labelledby="titulo-presentacion">
+    <div class="presentacion__contenido">
+        <img class="presentacion__foto" src="./assets/1705593492854.jpg" alt="Foto de perfil de Camilo Alarcón">
+        <div class="presentacion__contenedor">
+            <h2 id="titulo-presentacion" class="presentacion__titulo">Hola, mi nombre es Camilo Alarcón y construyo
+                soluciones digitales con pasión</h2>
+            <p class="presentacion__subtitulo">Soy desarrollador web con experiencia en la creación de sitios dinámicos
+                y accesibles. Actualmente, formo parte del proyecto Oracle ONE en Alura Latam, donde busco llevar la web
+                a un nuevo nivel.</p>
+            <ul class="redes">
+                <li class="redes__img">
+                    <a href="https://github.com" target="_blank" rel="noopener noreferrer"
+                        aria-label="Visitar perfil en Github">
+                        Github <img src="assets/arrow.png" alt="">
+                    </a>
+                </li>
+                <li class="redes__img">
+                    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"
+                        aria-label="Visitar perfil en LinkedIn">
+                        LinkedIn <img src="assets/arrow.png" alt="">
+                    </a>
+                </li>
+                <li class="redes__img">
+                    <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"
+                        aria-label="Visitar perfil en Instagram">
+                        Instagram <img src="assets/arrow.png" alt="">
+                    </a>
+                </li>
+                <li class="redes__img">
+                    <a href="assets/curriculum.pdf" target="_blank" rel="noopener noreferrer"
+                        aria-label="Descargar Currículo de Camilo Alarcón">
+                        Currículo <img src="assets/arrow.png" alt="">
+                    </a>
+                </li>
+            </ul>
         </div>
-    </section>
+    </div>
+</section>
+
+
 
     <!-- Sección sobre mí -->
-    <section class="sobre-mi" id="sobre-mi">
-        <div class="sobre-mi__contenido">
-            <h2 class="sobre-mi__titulo">Sobre mí</h2>
-            <p class="sobre-mi__texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit, volutpat
-                semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse potenti. Ut semper
-                sagittis ligula et lacinia.</p>
-            <p class="sobre-mi__texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit, volutpat
-                semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse potenti. Ut semper
-                sagittis ligula et lacinia. Aenean sit amet felis venenatis, egestas metus vitae, aliquet metus.</p>
-            <!-- Firma opcional -->
-            <img class="sobre-mi__firma" src="assets/signature.png" alt="Firma">
-        </div>
-        
-    </section>
+<section class="sobre-mi" id="sobre-mi" aria-labelledby="titulo-sobre-mi">
+    <div class="sobre-mi__contenido">
+        <h2 id="titulo-sobre-mi" class="sobre-mi__titulo">Sobre mí</h2>
+        <p class="sobre-mi__texto">
+            Soy Camilo Alarcón, desarrollador web apasionado por crear experiencias digitales accesibles e innovadoras.
+            Me especializo en construir sitios web que combinan diseño atractivo con funcionalidad impecable.
+        </p>
+        <p class="sobre-mi__texto">
+            Actualmente, estoy mejorando mis habilidades en desarrollo frontend y colaborando en proyectos que buscan
+            transformar la web. Siempre estoy en busca de nuevos desafíos que me permitan crecer profesionalmente.
+        </p>
+        <!-- Firma opcional -->
+        <img class="sobre-mi__firma" src="assets/signature.png" alt="Firma de Camilo Alarcón">
+    </div>
+</section>
+
 
     <!-- Sección de Habilidades -->
-    <section class="habilidades" id="habilidades">
-        <div class="habilidades__contenido">
+<section class="habilidades" id="habilidades" aria-labelledby="habilidades-title">
+    <div class="habilidades__contenido">
+        <h2 id="habilidades-title" class="habilidades__titulo">Mis Habilidades</h2>
+        <ul class="habilidades__lista" role="list">
+            <li class="habilidades__elemento" role="listitem">
+                <img class="habilidades__icono" src="./assets/htlm.png" alt="Icono de HTML 5" aria-hidden="true">
+                <p class="habilidades__nombre">HTML 5</p>
+            </li>
+            <li class="habilidades__elemento" role="listitem">
+                <img class="habilidades__icono" src="assets/js_icon.png" alt="Icono de JavaScript" aria-hidden="true">
+                <p class="habilidades__nombre">JavaScript</p>
+            </li>
+            <li class="habilidades__elemento" role="listitem">
+                <img class="habilidades__icono" src="assets/php_icon.png" alt="Icono de PHP" aria-hidden="true">
+                <p class="habilidades__nombre">PHP</p>
+            </li>
+            <li class="habilidades__elemento" role="listitem">
+                <img class="habilidades__icono" src="assets/nodejs_icon.png" alt="Icono de Node.js" aria-hidden="true">
+                <p class="habilidades__nombre">Node JS</p>
+            </li>
+            <li class="habilidades__elemento" role="listitem">
+                <img class="habilidades__icono" src="assets/react_icon.png" alt="Icono de React" aria-hidden="true">
+                <p class="habilidades__nombre">React</p>
+            </li>
+            <li class="habilidades__elemento" role="listitem">
+                <img class="habilidades__icono" src="assets/css_icon.png" alt="Icono de CSS" aria-hidden="true">
+                <p class="habilidades__nombre">CSS</p>
+            </li>
+        </ul>
+    </div>
+</section>
 
-            <h2 class="habilidades__titulo">Skills</h2>
-            <ul class="habilidades__lista">
-                <li class="habilidades__elemento">
-                    <img class="habilidades__icono" src="./assets/htlm.png" alt="HTML">
-                    <p class="habilidades__nombre">HTML 5</p>
-                </li>
-                <li class="habilidades__elemento">
-                    <img class="habilidades__icono" src="assets/js_icon.png" alt="JavaScript">
-                    <p class="habilidades__nombre">JavaScript</p>
-                </li>
-                <li class="habilidades__elemento">
-                    <img class="habilidades__icono" src="assets/php_icon.png" alt="PHP">
-                    <p class="habilidades__nombre">PHP</p>
-                </li>
-                <li class="habilidades__elemento">
-                    <img class="habilidades__icono" src="assets/nodejs_icon.png" alt="Node.js">
-                    <p class="habilidades__nombre">Node JS</p>
-                </li>
-                <li class="habilidades__elemento">
-                    <img class="habilidades__icono" src="assets/react_icon.png" alt="React">
-                    <p class="habilidades__nombre">React</p>
-                </li>
-                <li class="habilidades__elemento">
-                    <img class="habilidades__icono" src="assets/css_icon.png" alt="CSS">
-                    <p class="habilidades__nombre">CSS</p>
-                </li>
-            </ul>
-
-        </div>
-    </section>
 
     <!-- Sección de Aficiones -->
-    <section class="aficiones" id="aficiones">
-        <div class="aficiones__contenido">
-            <h2 class="aficiones__titulo">Hobbies</h2>
-            <ul class="aficiones__lista">
-                <li class="aficiones__elemento">
-                    <img class="aficiones__icono" src="assets/skate_icon.png" alt="Patinaje">
-                    <p class="aficiones__nombre">Patinaje</p>
-                </li>
-                <li class="aficiones__elemento">
-                    <img class="aficiones__icono" src="assets/guitar_icon.png" alt="Tocar bajo">
-                    <p class="aficiones__nombre">Tocar bajo</p>
-                </li>
-                <li class="aficiones__elemento">
-                    <img class="aficiones__icono" src="assets/headphones_icon.png" alt="Oír música">
-                    <p class="aficiones__nombre">Oír música</p>
-                </li>
-                <li class="aficiones__elemento">
-                    <img class="aficiones__icono" src="assets/tv_icon.png" alt="Ver series">
-                    <p class="aficiones__nombre">Ver series</p>
-                </li>
-                <li class="aficiones__elemento">
-                    <img class="aficiones__icono" src="assets/forkspoon_icon.png" alt="Cocinar">
-                    <p class="aficiones__nombre">Cocinar</p>
-                </li>
-                <li class="aficiones__elemento">
-                    <img class="aficiones__icono" src="assets/camera_icon.png" alt="Tomar fotos">
-                    <p class="aficiones__nombre">Tomar fotos</p>
-                </li>
-            </ul>
-        </div>
-    </section>
+<section class="aficiones" id="aficiones" aria-labelledby="aficiones-title">
+    <div class="aficiones__contenido">
+        <h2 id="aficiones-title" class="aficiones__titulo">Mis Aficiones</h2>
+        <ul class="aficiones__lista" role="list">
+            <li class="aficiones__elemento" role="listitem">
+                <img class="aficiones__icono" src="assets/skate_icon.png" alt="Icono de Patinaje" aria-hidden="true">
+                <p class="aficiones__nombre">Patinaje</p>
+            </li>
+            <li class="aficiones__elemento" role="listitem">
+                <img class="aficiones__icono" src="assets/guitar_icon.png" alt="Icono de Tocar bajo" aria-hidden="true">
+                <p class="aficiones__nombre">Tocar bajo</p>
+            </li>
+            <li class="aficiones__elemento" role="listitem">
+                <img class="aficiones__icono" src="assets/headphones_icon.png" alt="Icono de Oír música"
+                    aria-hidden="true">
+                <p class="aficiones__nombre">Oír música</p>
+            </li>
+            <li class="aficiones__elemento" role="listitem">
+                <img class="aficiones__icono" src="assets/tv_icon.png" alt="Icono de Ver series" aria-hidden="true">
+                <p class="aficiones__nombre">Ver series</p>
+            </li>
+            <li class="aficiones__elemento" role="listitem">
+                <img class="aficiones__icono" src="assets/forkspoon_icon.png" alt="Icono de Cocinar" aria-hidden="true">
+                <p class="aficiones__nombre">Cocinar</p>
+            </li>
+            <li class="aficiones__elemento" role="listitem">
+                <img class="aficiones__icono" src="assets/camera_icon.png" alt="Icono de Tomar fotos"
+                    aria-hidden="true">
+                <p class="aficiones__nombre">Tomar fotos</p>
+            </li>
+        </ul>
+    </div>
+</section>
+
 
     <!-- Sección de Formación académica -->
-    <section class="formacion" id="formacion">
-        <div class="formacion__contenido">
-            <h2 class="formacion__titulo">Formación académica</h2>
-            <ul class="formacion__lista">
-                <li class="formacion__elemento">
-                    <div class="formacion__grafico">
-                        <img class="formacion__icono" src="assets/ufpr_logo.png" alt="UFPR">
-                    </div>
-                    <div class="formacion__descripcion">
-                        <h3 class="formacion__nombre">Análisis de datos</h3>
-                        <p class="formacion__detalle">2018 - UFPR</p>
-                    </div>
-                </li>
-                <li class="formacion__elemento">
-                    <div class="formacion__grafico">
-                        <img class="formacion__icono" src="assets/alura_logo.png" alt="Alura">
-                    </div>
-            
-                    <div class="formacion__descripcion">
-                        <h3 class="formacion__nombre">Formación en UX Design</h3>
-                        <p class="formacion__detalle">2019 - Alura</p>
-                    </div>
-                </li>
-                <li class="formacion__elemento">
-                    <div class="formacion__grafico">
-                        <img class="formacion__icono" src="assets/ufrj_logo.png" alt="UFRJ">
-                    </div>
-                    <div class="formacion__descripcion">
-                        <h3 class="formacion__nombre">Posgrado en diseño</h3>
-                        <p class="formacion__detalle">En curso - UFRJ</p>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </section>
+<section class="formacion" id="formacion" aria-labelledby="formacion-title">
+    <div class="formacion__contenido">
+        <h2 id="formacion-title" class="formacion__titulo">Mi Formación Académica</h2>
+        <ul class="formacion__lista" role="list">
+            <li class="formacion__elemento" role="listitem">
+                <div class="formacion__grafico" aria-hidden="true">
+                    <img class="formacion__icono" src="assets/ufpr_logo.png" alt="Logo de UFPR">
+                </div>
+                <div class="formacion__descripcion">
+                    <h3 class="formacion__nombre">Análisis de Datos</h3>
+                    <p class="formacion__detalle">2018 - UFPR</p>
+                </div>
+            </li>
+            <li class="formacion__elemento" role="listitem">
+                <div class="formacion__grafico" aria-hidden="true">
+                    <img class="formacion__icono" src="assets/alura_logo.png" alt="Logo de Alura">
+                </div>
+                <div class="formacion__descripcion">
+                    <h3 class="formacion__nombre">Formación en UX Design</h3>
+                    <p class="formacion__detalle">2019 - Alura</p>
+                </div>
+            </li>
+            <li class="formacion__elemento" role="listitem">
+                <div class="formacion__grafico" aria-hidden="true">
+                    <img class="formacion__icono" src="assets/ufrj_logo.png" alt="Logo de UFRJ">
+                </div>
+                <div class="formacion__descripcion">
+                    <h3 class="formacion__nombre">Posgrado en Diseño</h3>
+                    <p class="formacion__detalle">En curso - UFRJ</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
+
 
     <!-- Sección de Proyectos -->
     <section class="proyectos" id="proyectos">
