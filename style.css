@@ -30,6 +30,7 @@ a {
     color: var(--color-de-link);
 }
 
+/* Móvil por defecto */
 /* ------------------------------ Sección Menú -------------------------------*/
 .cabecera {
     background-color: var(--color-de-fondo-menu);
@@ -522,7 +523,7 @@ a {
 
 /* ------------------------------ Responsividad ---------------------------------------*/
 
-/* Tablets y pantallas más grandes */
+/* Para tablet (768px en adelante) */
 @media (min-width: 768px) {
 
     /* ------------------------------ cabecera ---------------------------------------*/
@@ -637,7 +638,8 @@ a {
 
 }
 
-/* para pantallas de tipo escritorio pequeñas */
+/* parecia necesario añadir un breakpoint mas, el de 1024. Y asi el de 1440     quedaria mejor */
+/* Para laptops pequeñas (1024px en adelante) */ 
 @media (min-width: 1024px) {
 
     /* ------------------------------ cabecera ---------------------------------------*/
@@ -701,7 +703,7 @@ a {
     }
 
     .sobre-mi__texto{
-        max-width: 768px;
+        max-width: 68%;
     }
 
     /*------------------------------ Sección de Habilidades ------------------------------*/
@@ -748,6 +750,29 @@ a {
         padding: 2rem 10rem;
     }
 
+    .proyectos__contenedor {
+        align-items: flex-start;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: auto;
+        margin-bottom: 4rem;
+        column-gap: 1rem;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+/*     .proyectos__informacion {
+        width: 25%;
+    } */
+
+    .proyectos__icono {
+        margin-bottom: 1rem;
+        max-width: 100%;
+        height: auto;
+        flex: 1 1 300px;
+    }
+
     .proyectos__botones-repositorio {
         font-weight: 600;
     }
@@ -760,9 +785,13 @@ a {
     .contacto__contenido {
         padding: 1rem 10rem;
     }
+
+    .proyectos__nombre {
+        max-width: 223px;
+    }
 }
 
-/* para pantallas de tipo escritorio grandes */
+/* Para pantallas grandes (1440px en adelante) */
 @media (min-width: 1440px) {
 
     /* ------------------------------ cabecera ---------------------------------------*/
