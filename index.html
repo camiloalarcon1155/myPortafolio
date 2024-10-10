@@ -207,93 +207,115 @@
 
 
     <!-- Sección de Proyectos -->
-    <section class="proyectos" id="proyectos">
-        <div class="proyectos__contenido">
-            <h2 class="proyectos__titulo">Experiencia Profesional</h2>
-            <div class="proyectos__contenedor">
-                <img class="proyectos__icono" src="./assets/decod_print.png" alt="Interfaz de proyecto encriptador de texto">
+<section class="proyectos" id="proyectos" aria-labelledby="proyectos-title">
+    <div class="proyectos__contenido">
+        <h2 id="proyectos-title" class="proyectos__titulo">Mis Proyectos</h2>
+        <div class="proyectos__contenedor">
+            <div class="proyectos__tarjeta" role="article" aria-labelledby="proyecto-encriptador">
+                <img class="proyectos__icono" src="./assets/decod_print.png"
+                    alt="Interfaz del proyecto Encriptador de texto">
                 <div class="proyectos__informacion">
-                    <h3 class="proyectos__nombre">Encriptador de texto</h3>
+                    <h3 id="proyecto-encriptador" class="proyectos__nombre">Encriptador de texto</h3>
                     <p class="proyectos__descripcion">Challenge Oracle</p>
                     <div class="proyectos__botones">
-                        <button class="proyectos__botones-repositorio">Repositorio</button>
-                        <button class="proyectos__botones-demo">Ver demo</button>
+                        <button class="proyectos__botones-repositorio"
+                            aria-label="Ver repositorio del Encriptador de texto">Repositorio</button>
+                        <button class="proyectos__botones-demo" aria-label="Ver demo del Encriptador de texto">Ver
+                            demo</button>
                     </div>
                 </div>
             </div>
-            <div class="proyectos__contenedor">
-                <img class="proyectos__icono" src="./assets/forca_print.png" alt="Interfaz de proyecto encriptador de texto">
+            <div class="proyectos__tarjeta" role="article" aria-labelledby="proyecto-juego-html-js">
+                <img class="proyectos__icono" src="./assets/forca_print.png"
+                    alt="Interfaz del juego creado con HTML y JavaScript">
                 <div class="proyectos__informacion">
-                    <h3 class="proyectos__nombre">Juego creado con HTML y JavaScript</h3>
+                    <h3 id="proyecto-juego-html-js" class="proyectos__nombre">Juego creado con HTML y JavaScript</h3>
                     <p class="proyectos__descripcion">Challenge Oracle</p>
                     <div class="proyectos__botones">
-                        <button class="proyectos__botones-repositorio">Repositorio</button>
-                        <button class="proyectos__botones-demo">Ver demo</button>
+                        <button class="proyectos__botones-repositorio"
+                            aria-label="Ver repositorio del juego creado con HTML y JavaScript">Repositorio</button>
+                        <button class="proyectos__botones-demo"
+                            aria-label="Ver demo del juego creado con HTML y JavaScript">Ver demo</button>
                     </div>
                 </div>
             </div>
-            <div class="proyectos__contenedor">
-                <img class="proyectos__icono" src="./assets/secretcode_print.png" alt="Interfaz de proyecto encriptador de texto">
+            <div class="proyectos__tarjeta" role="article" aria-labelledby="proyecto-encriptador-dos">
+                <img class="proyectos__icono" src="./assets/secretcode_print.png"
+                    alt="Interfaz del proyecto Encriptador de texto">
                 <div class="proyectos__informacion">
-                    <h3 class="proyectos__nombre">Encriptador de texto</h3>
+                    <h3 id="proyecto-encriptador-dos" class="proyectos__nombre">Encriptador de texto</h3>
                     <p class="proyectos__descripcion">Challenge Oracle</p>
                     <div class="proyectos__botones">
-                        <button class="proyectos__botones-repositorio">Repositorio</button>
-                        <button class="proyectos__botones-demo">Ver demo</button>
+                        <button class="proyectos__botones-repositorio"
+                            aria-label="Ver repositorio del Encriptador de texto">Repositorio</button>
+                        <button class="proyectos__botones-demo" aria-label="Ver demo del Encriptador de texto">Ver
+                            demo</button>
                     </div>
                 </div>
             </div>
-            <div class="proyectos__contenedor">
-                <img class="proyectos__icono" src="./assets/forca2_print.png" alt="Interfaz de proyecto encriptador de texto">
+            <div class="proyectos__tarjeta" role="article" aria-labelledby="proyecto-juego-html-css-js">
+                <img class="proyectos__icono" src="./assets/forca2_print.png"
+                    alt="Interfaz del juego creado con HTML, CSS y JavaScript">
                 <div class="proyectos__informacion">
-                    <h3 class="proyectos__nombre">Juego creado con HTML, CSS y JavaScript</h3>
+                    <h3 id="proyecto-juego-html-css-js" class="proyectos__nombre">Juego creado con HTML, CSS y
+                        JavaScript</h3>
                     <p class="proyectos__descripcion">Challenge Oracle</p>
                     <div class="proyectos__botones">
-                        <button class="proyectos__botones-repositorio">Repositorio</button>
-                        <button class="proyectos__botones-demo">Ver demo</button>
+                        <button class="proyectos__botones-repositorio"
+                            aria-label="Ver repositorio del juego creado con HTML, CSS y JavaScript">Repositorio</button>
+                        <button class="proyectos__botones-demo"
+                            aria-label="Ver demo del juego creado con HTML, CSS y JavaScript">Ver demo</button>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
+
 
     <!-- Sección de Contacto -->
-    <section class="contacto" id="contacto">
-        <div class="contacto__contenido">
-                        <img class="contacto__icono" src="./assets/contact_image.png" alt="Telefono descolgado">
-                    <div class="contacto__rellenar-informacion">
-                    <h2 class="contacto__titulo">Contacto</h2>
-                    <p>¿Quieres contactarme? <br>
-                        Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.</p>
-                    <form class="contacto__formulario">
-                        <div class="contacto__contenedor">
-                            <label class="contacto__label" for="nombre">Nombre</label>
-                            <input class="contacto__campo" id="nombre" type="text" placeholder="André Lisboa...">
-                        </div>
-                        <div class="contacto__contenedor">
-                            <label class="contacto__label" for="email">E-mail</label>
-                            <input class="contacto__campo" id="email" type="email" placeholder="andre.lisboa@alur...|">
-                        </div>
-                    
-                        <div class="contacto__contenedor">
-                            <input class="contacto__campo" id="email" type="email" placeholder="Asunto">
-                        </div>
-                    
-                        <div class="contacto__contenedor">
-                            <textarea class="contacto__campo contacto__campo--textarea" placeholder="Mensaje"></textarea>
-                        </div>
-                    
-                        <button class="contacto__boton" type="submit">Enviar mensaje</button>
-                    </form>
-                    </div>
+<section class="contacto" id="contacto" aria-labelledby="contacto-title">
+    <div class="contacto__contenido">
+        <img class="contacto__icono" src="./assets/contact_image.png" alt="Teléfono descolgado">
+        <div class="contacto__rellenar-informacion">
+            <h2 id="contacto-title" class="contacto__titulo">Contacto</h2>
+            <p>¿Quieres contactarme? <br>
+                Completa el siguiente formulario y me pondré en contacto contigo lo antes posible.</p>
+            <form class="contacto__formulario" action="mailto:camiloalarcon11155@gmail.com" method="POST"
+                enctype="text/plain">
+                <div class="contacto__contenedor">
+                    <label class="contacto__label" for="nombre">Nombre</label>
+                    <input class="contacto__campo" id="nombre" name="nombre" type="text" placeholder="Tu nombre..."
+                        required aria-required="true">
+                </div>
+                <div class="contacto__contenedor">
+                    <label class="contacto__label" for="email">Correo electrónico</label>
+                    <input class="contacto__campo" id="email" name="email" type="email"
+                        placeholder="tuemail@ejemplo.com" required aria-required="true">
+                </div>
+                <div class="contacto__contenedor">
+                    <label class="contacto__label" for="asunto">Asunto</label>
+                    <input class="contacto__campo" id="asunto" name="asunto" type="text" placeholder="Asunto" required
+                        aria-required="true">
+                </div>
+                <div class="contacto__contenedor">
+                    <label class="contacto__label" for="mensaje">Mensaje</label>
+                    <textarea class="contacto__campo contacto__campo--textarea" id="mensaje" name="mensaje"
+                        placeholder="Escribe tu mensaje aquí..." required aria-required="true"></textarea>
+                </div>
+                <button class="contacto__boton" type="submit">Enviar mensaje</button>
+            </form>
         </div>
-    </section>
+    </div>
+</section>
+
 
     <!-- rodapìe -->
-    <footer class="rodapìe">
-        <p>Desarrollado por Fulana de Tal</p>
-        <p>2022</p>
-    </footer>
+<footer class="rodapie" role="contentinfo" aria-labelledby="footer-title">
+    <h2 id="footer-title" class="visually-hidden">Información del pie de página</h2>
+    <p>Desarrollado por Camilo Alarcón</p>
+    <p>&copy; 2024</p>
+</footer>
 
 </body>
     <script src="script.js"></script>
