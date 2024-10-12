@@ -48,12 +48,12 @@ a {
 .cabecera__izquierda{
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 0.625rem;
 }
 
 
 .cabecera__logo {
-    max-width: 80px; /* Ajuste para pantallas pequeñas */
+    max-width: 5rem; /* Ajuste para pantallas pequeñas */
 }
 
 .cabecera__titulo {
@@ -78,7 +78,7 @@ a {
     display: flex;
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 0.875rem;
 }
 
 /* ------------------------------ Sección Presentación ------------------------------*/
@@ -95,8 +95,8 @@ a {
 }
 
 .presentacion__foto{
-    width: 98px;
-    height: 98px;
+    width: 6.125rem;
+    height: 6.125rem;
     object-fit: contain;
 }
 
@@ -110,14 +110,14 @@ a {
     text-align: left;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
-    font-size: 22px;
+    font-size: 1.375rem;
 
 }
 .presentacion__subtitulo{
     text-align: left;
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 0.875rem;
 }
 
 .redes{
@@ -126,8 +126,8 @@ a {
     padding-inline-start: 0;
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
-    font-size: 14px;
-    max-width: 318px;
+    font-size: 0.875rem;
+    max-width: 19.875rem;
 }
 
 /* ------------------------------ Sección sobre mí ----------------------------------*/
@@ -148,19 +148,19 @@ a {
     text-align: left;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
-    font-size: 22px;
+    font-size: 1.375rem;
 }
 
 .sobre-mi__texto{
     text-align: left;
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 0.875rem;
 }
 
 .sobre-mi__firma{
-    width: 140px;
-    height: 52px;
+    width: 8.75rem;
+    height: 3.25rem;
     object-fit: contain;
 }
 /*------------------------------ Sección de Habilidades ------------------------------*/
@@ -180,7 +180,7 @@ a {
     text-align: center;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
-    font-size: 22px;
+    font-size: 1.375rem;
 }
 
 .habilidades__lista{
@@ -194,13 +194,13 @@ a {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 156px;
-    height: 118px;
+    width: 9.75rem;
+    height: 7.375rem;
     flex-grow: 1;
     padding: 1rem;
     justify-content: flex-end;
     background-color: #ffffff;
-    gap: 8px;
+    gap: 0.5rem;
 }
 
 .habilidades__icono{
@@ -212,7 +212,7 @@ a {
     text-align: left;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
-    font-size: 16px;    
+    font-size: 1rem;    
 }
 
 /*------------------------------ Sección de Aficiones --------------------------------*/
@@ -232,7 +232,7 @@ a {
     text-align: center;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
-    font-size: 22px;
+    font-size: 1.375rem;
 }
 
 .aficiones__lista{
@@ -246,8 +246,8 @@ a {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 156px;
-    height: 118px;
+    width: 9.75rem;
+    height: 7.375rem;
     flex-grow: 1;
     padding: 1rem;
     justify-content: flex-end;
@@ -263,7 +263,7 @@ a {
     text-align: left;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
-    font-size: 16px;    
+    font-size: 1rem;    
 }
 
 /*------------------------------ Sección de Formacion --------------------------------*/
@@ -283,7 +283,7 @@ a {
     text-align: center;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
-    font-size: 22px;
+    font-size: 1.375rem;
 }
 
 .formacion__lista{
@@ -298,7 +298,7 @@ a {
     flex-direction: column;
     width: 100%;
     height: auto;
-    gap: 8px;
+    gap: 0.5rem;
 }
 
 .formacion__grafico{
@@ -307,33 +307,33 @@ a {
     align-items: center;
     background-color: #ffffff;
     width: 100%;
-    height: 118px;
+    height: 7.375rem;
 }
 
 .formacion__icono{
     object-fit: contain;
-    height: 55px;
+    height: 3.4375rem;
     width: auto;
 }
 
 .formacion__descripcion{
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 0.5rem;
 }
 
 .formacion__nombre {
     text-align: left;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
-    font-size: 16px; 
+    font-size: 1rem; 
 }
 
 .formacion__detalle{
     text-align: left;
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
-    font-size: 14px; 
+    font-size: 0.875rem; 
 }
 
 /*------------------------------ Sección de Proyectos --------------------------------*/
@@ -350,7 +350,7 @@ a {
     text-align: center;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
-    font-size: 22px;
+    font-size: 1.375rem;
     margin-bottom: 1rem;
 }
 
@@ -374,30 +374,30 @@ a {
     text-align:left;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
-    font-size: 16px;
-    margin-bottom: 8px;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
 }
 
 .proyectos__descripcion{
     text-align: left;
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
-    font-size: 14px; 
-    margin-bottom: 8px;
+    font-size: 0.875rem; 
+    margin-bottom: 0.5rem;
 }
 
 .proyectos__botones{
     display: flex;
     gap: 1rem;
     width: 100%;
-    height: 40px;
+    height: 2.5rem;
 }
 
 .proyectos__botones-repositorio{
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
-    font-size: 14px; 
-    width: 108px;
+    font-size: 0.875rem; 
+    width: 6.75rem;
     text-align: center;
     border: 1px solid #2A7AE4;
     color: #2A7AE4;
@@ -406,8 +406,8 @@ a {
 .proyectos__botones-demo{
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
-    font-size: 14px; 
-    width: 108px;
+    font-size: 0.875rem; 
+    width: 6.75rem;
     text-align: center; 
     background-color: #2A7AE4;
     border: none;
@@ -424,14 +424,14 @@ a {
     display: flex;
     flex-direction: column;
     padding: 2rem;
-    gap: 8px;
+    gap: 0.5rem;
 }
 
 .contacto__titulo{
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
-    font-size: 22px; 
-    margin-bottom: 8px;
+    font-size: 1.375rem; 
+    margin-bottom: 0.5rem;
 }
 
 .contacto__rellenar-informacion p {
@@ -456,42 +456,42 @@ a {
     flex-direction: column;
     background-color: var(--color-de-fondo-menu);
     width: 100%;
-    height: 56px;
+    height: 3.5rem;
     justify-content: space-around;
-    padding-left: 12px;
+    padding-left: 0.75rem;
 }
 
 .contacto__contenedor:nth-child(4) {
-    height: 133px;
-    padding-top: 12px;
+    height: 8.3125rem;
+    padding-top: 0.75rem;
     justify-content: flex-start;
 }
 
 .contacto__label{
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
-    font-size: 12px; 
+    font-size: 0.75rem; 
     color: #A2A2A2;
 }
 
 .contacto__campo{
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
-    font-size: 16px; 
+    font-size: 1rem; 
     border: none;
     outline: none;
     color: #464646;
 }
 
 .contacto__campo:focus {
-    border-bottom: 3px solid #2A7AE4;
+    border-bottom: 0.1875rem solid #2A7AE4;
     color: #2A7AE4;
 }
 
 .contacto__campo:placeholder-shown {
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
-    font-size: 16px; 
+    font-size: 1rem; 
     color: #A2A2A2;
     resize: none;
 }
@@ -499,9 +499,9 @@ a {
 .contacto__boton{
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
-    font-size: 14px; 
-    width: 133px;
-    height: 40px;
+    font-size: 0.875rem; 
+    width: 8.3125rem;
+    height: 2.5rem;
     background-color: #2A7AE4;
     color: var(--color-de-fondo-menu);
     border: none;
@@ -515,7 +515,7 @@ a {
     width: 100%;
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
-    font-size: 16px; 
+    font-size: 1rem; 
     padding: 2rem;
     background-color: var(--color-de-fondo-menu);
     
@@ -549,7 +549,7 @@ a {
     }
 
     .cabecera__logo {
-        max-width: 100px;
+        max-width: 6.25rem;
     }
 
     .navegacion__lista {
@@ -561,7 +561,7 @@ a {
 
     .navegacion__lista li:nth-child(6) {
         font-weight: 700;
-        font-size: 16px;
+        font-size: 1rem;
     }
 
    /* ------------------------------ Sección Presentación ------------------------------*/
@@ -574,23 +574,23 @@ a {
     }
 
     .presentacion__subtitulo{
-        font-size: 16px;
+        font-size: 1rem;
     }
 
     .presentacion__foto{
         margin-bottom: 0rem;
         align-self: center;
-        width: 146px;
-        height: 146px;
+        width: 9.125rem;
+        height: 9.125rem;
     }
 
     .presentacion__contenedor{
-        gap: 8px;
+        gap: 0.5rem;
         justify-content: center;
     }
 
     .redes {
-        max-width: 467px;
+        max-width: 29.1875rem;
         font-weight: 500;
         font-size: 1rem;
     }
@@ -607,8 +607,8 @@ a {
 
     .habilidades__elemento{
         width: auto;
-        min-width: 224px;
-        height: 118px;
+        min-width: 14rem;
+        height: 7.375rem;
     }
 
     /*------------------------------ Sección de Aficiones --------------------------------*/
@@ -618,8 +618,8 @@ a {
 
     .aficiones__elemento{
         width: auto;
-        min-width: 224px;
-        height: 118px;
+        min-width: 14rem;
+        height: 7.375rem;
     }
     
     /*------------------------------ Sección de Formacion --------------------------------*/
@@ -629,7 +629,7 @@ a {
 
     .formacion__grafico{
         width: 100%;
-        height: 118px;
+        height: 7.375rem;
     }
 
     .formacion__elemento {
@@ -665,7 +665,7 @@ a {
     }
 
     .cabecera__logo {
-        max-width: 100px;
+        max-width: 6.25rem;
     }
 
     .navegacion__lista {
@@ -677,7 +677,7 @@ a {
 
     .navegacion__lista li:nth-child(6) {
         font-weight: 700;
-        font-size: 16px;
+        font-size: 1rem;
     }
 
    /*  .navegacion__lista li {
@@ -693,23 +693,23 @@ a {
     }
 
     .presentacion__subtitulo{
-        font-size: 16px;
+        font-size: 1rem;
     }
 
     .presentacion__foto{
         margin-bottom: 0rem;
         align-self: center;
-        width: 146px;
-        height: 146px;
+        width: 9.125rem;
+        height: 9.125rem;
     }
 
     .presentacion__contenedor{
-        gap: 8px;
+        gap: 0.5rem;
         justify-content: center;
     }
 
     .redes {
-        max-width: 467px;
+        max-width: 29.1875rem;
         font-weight: 500;
         font-size: 1rem;
     }
@@ -730,8 +730,8 @@ a {
 
     .habilidades__elemento{
         width: auto;
-        min-width: 224px;
-        height: 118px;
+        min-width: 14rem;
+        height: 7.375rem;
     }
 
     /*------------------------------ Sección de Aficiones --------------------------------*/
@@ -741,8 +741,8 @@ a {
 
     .aficiones__elemento{
         width: auto;
-        min-width: 224px;
-        height: 118px;
+        min-width: 14rem;
+        height: 7.375rem;
     }
 
     /*------------------------------ Sección de Formacion --------------------------------*/
@@ -756,7 +756,7 @@ a {
 
     .formacion__grafico{
         width: 100%;
-        height: 118px;
+        height: 7.375rem;
     }
 
     .formacion__elemento {
@@ -787,7 +787,7 @@ a {
         margin-bottom: 1rem;
         max-width: 100%;
         height: auto;
-        flex: 1 1 300px;
+        flex: 1 1 18.75rem;
     }
 
     .proyectos__botones-repositorio {
@@ -804,20 +804,20 @@ a {
     }
 
     .proyectos__nombre {
-        max-width: 223px;
+        max-width: 13.9375rem;
     }
-}
+} 
 
 /* Para pantallas grandes (1440px en adelante) */
 @media (min-width: 1440px) {
 
     /* ------------------------------ cabecera ---------------------------------------*/
     .cabecera__contenido {
-        max-width: 1136px;
+        max-width: 71rem;
         width: 100%;
         margin: 0 auto;
         padding: 2rem 0;
-    }
+    } 
 
     .navegacion__lista li {
         display: flex;
@@ -829,7 +829,7 @@ a {
         flex-direction: row-reverse;
         padding: 0;
         gap: 2rem;
-        max-width: 1136px;
+        max-width: 71rem;
         width: 100%;
         margin: 0 auto;
         padding: 2rem 0;
@@ -840,15 +840,15 @@ a {
     }
 
     .presentacion__subtitulo{
-        font-size: 22px;
+        font-size: 1.375rem;
     }
 
     .presentacion__foto {
         margin-bottom: 0rem;
         align-self: center;
-        width: 368px;
-        height: 368px;
-    }
+        width: 23rem;
+        height: 23rem;
+    } 
 
     .presentacion__contenedor{
         gap: 1.5rem;
@@ -857,7 +857,7 @@ a {
 
     /* ------------------------------ Sección sobre mí ----------------------------------*/
     .sobre-mi__contenido {
-        max-width: 1136px;
+        max-width: 71rem;
         width: 100%;
         margin: 0 auto;
         padding: 4rem 0;
@@ -865,7 +865,7 @@ a {
 
     /*------------------------------ Sección de Habilidades ------------------------------*/
     .habilidades__contenido{
-        max-width: 1136px;
+        max-width: 71rem;
         width: 100%;
         margin: 0 auto;
         padding: 2rem 0; 
@@ -873,46 +873,46 @@ a {
 
     .habilidades__elemento {
         width: auto;
-        min-width: 176px;
-        height: 174px;
-    }
+        min-width: 11rem;
+        height: 10.875rem;
+    } 
 
     /*------------------------------ Sección de Aficiones --------------------------------*/
     .aficiones__contenido {
-        max-width: 1136px;
+        max-width: 71rem;
         width: 100%;
         margin: 0 auto;
-        padding: 44px 0;
-    }
+        padding: 2.75rem 0;
+    } 
 
     .aficiones__elemento {
         width: auto;
-        min-width: 176px;
-        height: 174px;
-    }
+        min-width: 11rem;
+        height: 10.875rem;
+    } 
 
     /*------------------------------ Sección de Formacion --------------------------------*/
     .formacion__contenido {
-        max-width: 1136px;
+        max-width: 71rem;
         width: 100%;
         margin: 0 auto;
-        padding: 82px 0;
+        padding: 5.125rem 0;
     }
 
     .formacion__grafico {
-        width: 368px;
-        height: 347px;
+        width: 23rem;
+        height: 21.6875rem;
     }    
 
     .formacion__icono {
         object-fit: contain;
-        height: 130px;
-        width: 192px;
+        height: 8.125rem;
+        width: 12rem;
     }
 
     .proyectos__contenido {
         padding: 2rem;
-        max-width: 1136px;
+        max-width: 71rem;
         margin: 0 auto;
         padding: 2rem 0;
     }
@@ -932,14 +932,14 @@ a {
         display: flex;
         justify-content: left;
         flex-direction: column;
-        width: 368px;
+        width: 23rem;
     }
 
     /*------------------------------ Sección de Contacto ---------------------------------*/
     .contacto__contenido {
         display: flex;
         flex-direction: row;
-        max-width: 1136px;
+        max-width: 71rem;
         width: 100%;
         margin: 0 auto;
         padding: 4rem 0;
@@ -951,7 +951,7 @@ a {
         font-weight: 700;
         font-size: 2rem;
         text-align: left;
-        margin-bottom: 8px;
+        margin-bottom: 0.5rem;
     }
 
     .contacto__icono {
