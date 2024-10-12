@@ -521,6 +521,20 @@ a {
     
 }
 
+/*------------------------------ rodapie
+ ---------------------------------*/
+
+.visually-hidden { /* se usa para no mostrar titulo de visualizacion de accesibilidad a la descripcion del rodapie */
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
 /* ------------------------------ Responsividad ---------------------------------------*/
 
 /* Para tablet (768px en adelante) */
@@ -929,6 +943,7 @@ a {
         width: 100%;
         margin: 0 auto;
         padding: 4rem 0;
+        justify-content: space-between;
     }
 
     .contacto__titulo {
