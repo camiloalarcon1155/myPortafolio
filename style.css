@@ -553,7 +553,6 @@ a {
     }
 
     .navegacion__lista {
-        display: flex;
         flex-direction: row;
         gap: 1rem;
         margin-top: 0;
@@ -566,7 +565,6 @@ a {
 
    /* ------------------------------ Sección Presentación ------------------------------*/
     .presentacion__contenido {
-        display: flex;
         flex-direction: row-reverse;
         padding: 2rem;
         gap: 2rem;
@@ -654,6 +652,7 @@ a {
 
 /* parecia necesario añadir un breakpoint mas, el de 1024. Y asi el de 1440     quedaria mejor */
 /* Para laptops pequeñas (1024px en adelante) */ 
+
 @media (min-width: 1024px) {
 
     /* ------------------------------ cabecera ---------------------------------------*/
@@ -669,7 +668,6 @@ a {
     }
 
     .navegacion__lista {
-        display: flex;
         flex-direction: row;
         gap: 1rem;
         margin-top: 0;
@@ -680,9 +678,6 @@ a {
         font-size: 1rem;
     }
 
-   /*  .navegacion__lista li {
-        display: flex;
-    } */
     /* ------------------------------ Sección Presentación ------------------------------*/
     .presentacion__contenido {
         display: flex;
@@ -779,10 +774,6 @@ a {
         justify-content: space-between;
     }
 
-/*     .proyectos__informacion {
-        width: 25%;
-    } */
-
     .proyectos__icono {
         margin-bottom: 1rem;
         max-width: 100%;
@@ -809,6 +800,7 @@ a {
 } 
 
 /* Para pantallas grandes (1440px en adelante) */
+
 @media (min-width: 1440px) {
 
     /* ------------------------------ cabecera ---------------------------------------*/
@@ -825,7 +817,6 @@ a {
 
     /* ------------------------------ Sección Presentación ------------------------------*/
     .presentacion__contenido{
-        display: flex;
         flex-direction: row-reverse;
         padding: 0;
         gap: 2rem;
@@ -937,7 +928,6 @@ a {
 
     /*------------------------------ Sección de Contacto ---------------------------------*/
     .contacto__contenido {
-        display: flex;
         flex-direction: row;
         max-width: 71rem;
         width: 100%;
