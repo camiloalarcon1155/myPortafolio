@@ -98,6 +98,7 @@ a {
     width: 6.125rem;
     height: 6.125rem;
     object-fit: contain;
+    border-radius: 50px;
 }
 
 .presentacion__contenedor{
@@ -581,6 +582,7 @@ a {
         align-self: center;
         width: 9.125rem;
         height: 9.125rem;
+        border-radius: 95px;
     }
 
     .presentacion__contenedor{
@@ -841,6 +843,7 @@ a {
         align-self: center;
         width: 23rem;
         height: 23rem;
+        border-radius: 195px;
     } 
 
     .presentacion__contenedor{
