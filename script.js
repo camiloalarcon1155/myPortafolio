@@ -43,10 +43,10 @@ formularioPortafolio.addEventListener('submit', function (event) {
     // Si todas las validaciones son correctas, enviar el formulario
     /* formularioPortafolio.submit(); // Envía el formulario */
 
-    /* aqui se creo este envio con mailto, aunque tiene limitaciones en navegador chrome, funciona bien en firefox y edge */
-    console.log('Formulario enviado');
+    alert('Formulario enviado');
 
     // Construir el enlace mailto
+    //nota: puede tener problemas en gestionarse el mailto en algunos navegadores. 
     const mailtoLink = `mailto:camiloalarcon11155@gmail.com?subject=${encodeURIComponent(asunto)}&body=${encodeURIComponent(`Nombre: ${nombre}\nCorreo: ${email}\nMensaje: ${mensaje}`)}`;
 
     // Capturar el objeto mailtoLink en la consola
