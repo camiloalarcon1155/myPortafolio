@@ -55,5 +55,8 @@ formularioPortafolio.addEventListener('submit', function (event) {
     setTimeout(function() {
     window.open(mailtoLink, '_self');
     }, 100); // 100 milisegundos de retraso
+
+    // Limpiar los campos después del envío
+    formularioPortafolio.reset();
 });
 
