@@ -1,0 +1,68 @@
+# Sistema operativo
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# Archivos generados por editores de texto
+
+# VSCode
+.vscode/
+
+# Otros editores/IDE
+.idea/
+*.swp
+*.swo
+
+# Logs y archivos temporales
+
+# Archivos de log
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Directorios temporales y cachés
+.tmp/
+.cache/
+dist/
+out/
+build/
+
+# Archivos de test/coverage
+coverage/
+
+# Otros archivos temporales
+*.tmp
+*.temp
+*.bak
+
+# Ignorar imágenes originales de diseño (si son grandes y no se usan en producción)
+# Solo si subes las imágenes finales optimizadas
+*.psd
+*.ai
+*.tiff
+
+# Git archivos
+*.orig
+
+# Archivos empaquetados o compilados
+*.zip
+*.tar.gz
+*.rar
+*.7z
+*.jar
+*.war
+
+# Node.js (si decides usar alguna dependencia para manejar el proyecto más adelante)
+node_modules/
+
+# Archivos de configuración personales (ejemplo si utilizas algún gestor de paquetes o herramientas locales)
+.env
